@@ -12,7 +12,7 @@ $resourceGroup = "test_terraform_rgroup"
 $vmName = "SQL"
 
 $vmUrl = "https://portal.azure.com/#/resource/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Compute/virtualMachines/$vmName/overview"
-$baseDatabaseUrl = "https://titaniumsolutionsltd.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx?id=%2FShared%20Documents%2FDB%2F104%20Migration%20Test&viewid=7875561a%2D98c1%2D4382%2Dbde2%2Da5b788177393"
+$baseDatabaseUrl = "https://titaniumsolutionsltd.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx?id=%2FShared%20Documents%2FDB%2FMigration%20Test%2F104%2E106&viewid=7875561a%2D98c1%2D4382%2Dbde2%2Da5b788177393"
 $pipelineRunUrl = "$($env:SYSTEM_TEAMFOUNDATIONCOLLECTIONURI)$($env:SYSTEM_TEAMPROJECT)/_build/results?buildId=$($env:BUILD_BUILDID)"
 
 # Read log
